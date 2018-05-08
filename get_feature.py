@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
-from .utils import generate_i64
+from utils import generate_i64
 
 
 def get_one_function_feature():
@@ -9,7 +9,7 @@ def get_one_function_feature():
 
 
 def get_all_function_feature(binary_path):
-    i64_filepath = "./hahahaha"
+    i64_filepath = "./test/hahahaha"
     i64_path = generate_i64(binary_path, i64_filepath)
     print i64_path
 
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     print "从二进制程序中提取基本块层次的特征信息"
     print "step 1: 生成二进制程序对应的i64文件"
 
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         help()
         exit(-1)
 
