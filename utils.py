@@ -18,7 +18,7 @@ def generate_i64(binary_path, idb_store_path, ida_start=IDA_START, ida_engine_pa
     """
     if os.path.exists(ida_engine_path):
         # ida 加载二进制文件并将 ida 的i64文件保存到指定位置
-        os.system('%s %s %s %s' % (ida_start, ida_engine_path, binary_path, idb_store_path))
+        os.system('/bin/bash %s %s %s %s' % (ida_start, ida_engine_path, binary_path, idb_store_path))
         # i64 文件保存在当前目录下时，其默认名字与二进制程序名相同
         if idb_store_path == "." or idb_store_path == "./":
             return os.path.basename(binary_path) + ".i64"
