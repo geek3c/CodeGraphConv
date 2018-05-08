@@ -15,29 +15,7 @@
     <SUITE FILE_PATH="coverage/CodeGraphConv$main.coverage" NAME="main Coverage Results" MODIFIED="1524646766109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FuncTools" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="get_feature.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FeatureTools/get_feature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generate_i64.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/generate_i64.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-              <folding>
-                <element signature="e#46#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,8 +41,8 @@
         <option value="$PROJECT_DIR$/FuncTools/ida_scripts/ida_list_funcs.py" />
         <option value="$PROJECT_DIR$/Notes/基本块特征" />
         <option value="$PROJECT_DIR$/FeatureTools/idb_name.py" />
-        <option value="$PROJECT_DIR$/FeatureTools/get_feature.py" />
         <option value="$PROJECT_DIR$/utils/generate_i64.py" />
+        <option value="$PROJECT_DIR$/FeatureTools/get_feature.py" />
       </list>
     </option>
   </component>
@@ -98,16 +76,6 @@
             <path>
               <item name="CodeGraphConv" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeGraphConv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGraphConv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGraphConv" type="462c0819:PsiDirectoryNode" />
-              <item name="FeatureTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGraphConv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGraphConv" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,7 +152,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -285,19 +252,22 @@
     <entry file="file://$PROJECT_DIR$/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FeatureTools/get_feature.py">
+    <entry file="file://$PROJECT_DIR$/utils/generate_i64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="582">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#46#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/generate_i64.py">
+    <entry file="file://$PROJECT_DIR$/FeatureTools/get_feature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="462">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
-            <element signature="e#46#55#0" expanded="true" />
+            <element signature="e#46#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
