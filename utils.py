@@ -4,7 +4,7 @@ import os
 import sys
 
 IDA_ENGINE_PATH = "/usr/local/ida/idal64"
-IDA_START = "./ida_start.sh"
+IDA_START = "./shell/ida_start.sh"
 
 
 def generate_i64(binary_path, idb_store_path, ida_start=IDA_START, ida_engine_path=IDA_ENGINE_PATH):
