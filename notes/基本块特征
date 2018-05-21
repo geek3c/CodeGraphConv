@@ -1,0 +1,11 @@
+1. Block-level attributes
+String Constants
+Numeric Constants					--> 0不算
+No. of Transfer Instructions		--> 调用ida接口，判断指令
+No. of Calls						--> 调用ida接口，判断该指令
+No. of Instructions
+No. of Arithmetic Instructions		--> 调用ida接口，判断该指令
+
+2. Inter-block attributes
+No. of offspring					--> 该节点的所有 下属节点数量和
+Betweenness							--> Dawn Song的论文中给的例子中是以 小数 类型出现的
